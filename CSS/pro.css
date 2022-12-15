@@ -1,0 +1,29 @@
+header{
+    
+   
+    min-height: 70px; 
+    background-color:cornflowerblue ;
+    
+    padding: 20px;
+}
+
+.col:hover {
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.card shadow-sm {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	margin-bottom: 35px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+	transition: 0.6s ease;
+}
+
+
+.left{
+    width: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+}
